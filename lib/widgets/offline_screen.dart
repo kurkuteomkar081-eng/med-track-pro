@@ -126,8 +126,7 @@ class OfflineScreen extends StatelessWidget {
 
                           // Retry Button
                           SizedBox(
-                            width: double.infinity,
-                            maxWidth: 240,
+                            width: 240,
                             height: 50,
                             child: ElevatedButton(
                               onPressed: isRetrying ? null : () => onRetry(),
